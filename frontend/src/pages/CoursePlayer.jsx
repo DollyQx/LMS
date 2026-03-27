@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import ProgressBar from '../components/ProgressBar';
 import Loader from '../components/Loader';
 import { fetchCourseById } from '../services/courses.service';
-import { processLessonCompletion } from '../services/progress.service'; // Pseudo import mapped logically
+import { markLessonComplete } from '../services/progress.service'; // Pseudo import mapped logically
 import { CheckCircle, PlayCircle, FileText, FileQuestion } from 'lucide-react';
 
 const CoursePlayer = () => {
